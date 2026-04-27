@@ -1,0 +1,72 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #1a1a2e;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: #16213e;
+}
+
+p {
+    font-size: 1em;
+    color: #444444;
+}
+
+a {
+    color: #0f3460;
+    font-size: 1em;
+}
+
+nav {
+    background-color: #1a1a2e;
+}
+
+nav ul {
+    font-size: 1.1em;
+}
+
+nav a {
+    color: #e0e0e0;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+table {
+    font-size: 0.95em;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #16213e;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+td {
+    color: #444444;
+    font-size: 0.95em;
+}
+
+li {
+    font-size: 1em;
+    color: #444444;
+}
