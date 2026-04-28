@@ -5,18 +5,86 @@ body {
     background-color: #f5f5f5;
 }
 
-h1 {
+/* Selectores de clase */
+.titulo-principal {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2em;
     color: #1a1a2e;
 }
 
-h2 {
+.subtitulo {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
     color: #16213e;
 }
 
+.nav-principal {
+    background-color: #1a1a2e;
+}
+
+.nav-principal ul {
+    font-size: 1.1em;
+}
+
+.nav-principal a {
+    color: #e0e0e0;
+}
+
+.seccion-contenido {
+    color: #444444;
+}
+
+.lista-ingredientes {
+    font-size: 1em;
+    color: #444444;
+}
+
+.lista-pasos {
+    font-size: 1em;
+    color: #444444;
+}
+
+.texto-footer {
+    color: #ffffff;
+}
+
+/* Selectores de ID */
+#encabezado {
+    background-color: #1a1a2e;
+}
+
+#pie-pagina {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+#intro {
+    color: #333333;
+}
+
+#tabla-horario {
+    font-size: 0.95em;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+#tabla-horario th {
+    background-color: #16213e;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+#tabla-horario td {
+    color: #444444;
+    font-size: 0.95em;
+}
+
+#receta {
+    color: #333333;
+}
+
+/* Selectores de elemento */
 p {
     font-size: 1em;
     color: #444444;
@@ -25,48 +93,4 @@ p {
 a {
     color: #0f3460;
     font-size: 1em;
-}
-
-nav {
-    background-color: #1a1a2e;
-}
-
-nav ul {
-    font-size: 1.1em;
-}
-
-nav a {
-    color: #e0e0e0;
-}
-
-footer {
-    background-color: #1a1a2e;
-    color: #ffffff;
-    font-size: 0.9em;
-}
-
-footer p {
-    color: #ffffff;
-}
-
-table {
-    font-size: 0.95em;
-    color: #333333;
-    background-color: #ffffff;
-}
-
-th {
-    background-color: #16213e;
-    color: #ffffff;
-    font-size: 1em;
-}
-
-td {
-    color: #444444;
-    font-size: 0.95em;
-}
-
-li {
-    font-size: 1em;
-    color: #444444;
 }
